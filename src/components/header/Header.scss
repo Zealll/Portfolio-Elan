@@ -1,0 +1,177 @@
+.header-container {
+    padding: 50px 0;
+    
+    .nav-div {
+        padding: 0 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: Rajdhani;
+        font-size: 1.5rem;
+
+        .name-init {
+            .bckg {
+    
+            }
+    
+            .init {
+                margin-left: -98px;
+                margin-bottom: 15px;
+            }
+        }
+    
+        nav {
+            
+            a{
+                margin-left: 20px;
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+
+    .profile {
+        padding: 0 50px;
+        margin-top: 100px;
+        font-family: Helvetica Neue;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .basic-bio{
+            color: white;
+            text-align: left;
+            margin-left: 10%;
+            p {
+                font-size: 4rem;
+            }
+        }
+
+        .circle {
+            width: 50%;
+            border-radius: 50%;
+            background: rgb(24, 24, 134);
+        }
+        img {
+            width: 100%;
+            margin-left: -70px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+       
+    }
+
+    .top-img {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        z-index: 10;
+        margin-left: 5%;
+        margin-right: 10%;
+        margin-top: 200px;
+        margin-bottom: -31px;
+
+        .x {
+            max-height: 30px;
+            margin-top: 15px
+        }
+    }
+
+    .bottom-img {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        z-index: 10;
+        margin-left: 9%;
+        margin-right: 15%;
+        margin-top: -20px;
+
+        .x {
+            max-height: 30px;
+        }
+    }
+
+    .parent-rectangle {
+        font-family: Rajdhani;
+        color: white;
+        background: rgba(86, 56, 245, 0.26);
+        padding: 50px 0;
+        position: relative;
+
+        .text {
+            position: relative;
+            z-index: 999;
+
+            .xDiv {
+                display: flex;
+                // width: 60%;
+                // margin: 0 auto;
+                align-items: center;
+                justify-content: center;
+
+                img {
+                    max-height: 20px;
+                    max-width: 20px;
+                    margin-left: -20px;
+                    // margin-right: -20px
+                }
+            }
+
+            .title {
+                font-size: 3.5rem;
+                margin-bottom: 50px;
+                margin-left: 20px;
+            }
+
+            p {
+                font-weight: 600;
+                font-size: 2rem;
+                
+            }
+            .about {
+                margin: 0 15% 50px 15%;
+                line-height: 170.63%;
+            }
+        }
+
+        .child-rectangle {
+            
+            
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+            .rec1 {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                width: 60%;
+                // margin-left: 5%;
+                background: linear-gradient(114.5deg, rgba(106, 52, 255, 0.49) -0.42%, rgba(86, 80, 222, 0.4459) 126.52%);
+            }
+            
+            .rec2 {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                width: 60%;
+                margin-left: 5%;
+                background: linear-gradient(114.87deg, rgba(95, 28, 219, 0.225) -0.42%, rgba(132, 65, 164, 0.1813) 126.52%);
+            }
+
+            .rec3 {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                right: 0;
+                width: 65%;
+                // margin-left: 5%;
+                background: linear-gradient(116.43deg, rgba(107, 78, 133, 0.49) 13.35%, rgba(86, 80, 222, 0.4557) 59.9%);
+            }
+            // left: 0;
+            // right: 0;
+            // height: 100px;
+            // width: 100px;
+        }
+
+    }
+}

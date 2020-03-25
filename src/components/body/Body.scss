@@ -1,0 +1,73 @@
+.body-container {
+    padding: 100px 50px;
+    border: 1px solid red;
+    // background-image: url('../../resources/sun.png');
+
+    .discovery {
+        width: 75%;
+        margin: 0 auto;
+        // border: 1px solid yellow;
+        position: relative;
+        .sun {
+            width: 100%;
+            // border: 1px solid red;
+        }
+
+        .sun-contents {
+            position: absolute;
+            top: 0;
+            // margin-top: 300px;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            height: 50%;
+            .top-square {
+                display: flex;
+                justify-content: space-between;
+                width: 40%;
+                margin: 0 auto;
+            }
+
+            .mid-square {
+                // position: absolute;
+                // top: 0;
+                // border: 1px solid red;
+                color: white;
+                // font-family: Helvetica Neue;
+                line-height: 0;
+                p{
+                    font-size: 4rem;
+                    letter-spacing: 0.09em;
+                    font-weight: 700;
+                }
+
+                .together {
+                    margin-top: -30px
+                }
+            }
+
+            .bottom-square {
+                display: flex;
+                justify-content: space-between;
+                width: 40%;
+                margin: 0 auto;
+                .arrows {
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 125px;
+                    .arrow {
+                        // max-height: 50px;
+                        max-width: 70px;
+                        
+                    }
+                }
+            }
+
+            .smaller {
+                max-height: 170px;
+                max-width: 170px
+            }
+        }
+    }
+}

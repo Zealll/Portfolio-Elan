@@ -17,7 +17,7 @@ const Header = () => {
                 </div>
                 <nav>
                     <a href=''>Contact</a>
-                    <a href='' target='_blank'>GitHub</a>
+                    <a href='https://github.com/Zealll' target='_blank'>GitHub</a>
                 </nav>
             </div>
 

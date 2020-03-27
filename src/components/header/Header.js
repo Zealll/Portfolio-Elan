@@ -4,6 +4,9 @@ import nameInitials from '../../resources/ER.png'
 import profilePic from '../../resources/profile-pic.png'
 import plus from '../../resources/plus.png'
 import x from '../../resources/x.png'
+import fullCircle from '../../resources/full-circle.png'
+import fullLogo from '../../resources/full-logo.png'
+
 
 
 const Header = () => {
@@ -12,8 +15,8 @@ const Header = () => {
         <div className='header-container'>
             <div className='nav-div'>
                 <div className='name-init'>
-                    <img src={logoBackground} alt='Initials Background' className='bckg' />
-                    <img src={nameInitials} alt='Name Initials' className='init' />
+                    <img src={fullLogo} alt='Initials Background' className='bckg' />
+                    {/* <img src={nameInitials} alt='Name Initials' className='init' /> */}
                 </div>
                 <nav>
                     <a href='https://www.linkedin.com/in/elan-riznis/' target='_blank' rel='noopener noreferrer'>LinkedIn</a>
@@ -30,9 +33,9 @@ const Header = () => {
                     <p>a Full Stack</p>
                     <p>Developer</p>
                 </div>
-                <div className='circle'>
-                    <img src={profilePic} alt='Profile Headshot' className='profile-pic' />
-                </div>
+                {/* <div className='circle'> */}
+                <img src={fullCircle} alt='Profile Headshot' className='profile-pic' />
+                {/* </div> */}
             </div> 
             <div className='top-img'>
                 <img src={plus} alt='plus'/>

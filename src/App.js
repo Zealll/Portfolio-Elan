@@ -8,10 +8,10 @@ import Body from './components/body/Body.js'
 function App() {
   return (
     <div className="App">
-      <div className='max-width'>
+      {/* <div className='max-width'> */}
         <Header />
         <Body />
-      </div>
+      {/* </div> */}
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

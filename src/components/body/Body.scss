@@ -107,6 +107,57 @@
                     font-size: 2.3rem;
                 }
             }
+
+            .description-container {
+                max-width: 1000px;
+                margin: 0 auto;
+
+                .first-p {
+                    margin-bottom: 50px
+                }
+
+                
+
+                a {
+                    color: #7dcd66;
+                    text-decoration: none;
+                    display: flex;
+                    align-items: center;
+                    margin-top: 30px;
+
+                    svg {
+                        margin-right: 2%;  
+                    }
+                }
+            }
+        }
+    }
+
+    .contact {
+        .text {
+            color: white;
+            h4 {
+                font-size: 2.2rem
+            }
+
+            h2 {
+                font-size: 1.8rem;
+            }
+
+            p {
+                font-size: 1.4rem;
+            }
+        }
+
+        .links {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            svg {
+                font-size: 3em;
+                color: #7dcd66;
+                margin: 0 30px
+            }
         }
     }
 }

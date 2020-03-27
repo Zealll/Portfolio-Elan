@@ -1,66 +1,66 @@
 .body-container {
-    padding: 100px 50px;
+    padding: 0 50px 100px 50px;
     // border: 1px solid red;
 
     .discovery {
-        width: 75%;
-        margin: 0 auto;
+        max-width: 1700px;
+        margin: 0 auto 50px auto;
         position: relative;
         .sun {
             width: 100%;
         }
 
-        .sun-contents {
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            margin: auto;
-            height: 50%;
-            .top-square {
-                display: flex;
-                justify-content: space-between;
-                width: 40%;
-                margin: 0 auto;
-            }
+        // .sun-contents {
+        //     position: absolute;
+        //     top: 0;
+        //     bottom: 0;
+        //     left: 0;
+        //     right: 0;
+        //     margin: auto;
+        //     height: 50%;
+        //     // .top-square {
+        //     //     display: flex;
+        //     //     justify-content: space-between;
+        //     //     width: 40%;
+        //     //     margin: 0 auto;
+        //     // }
 
-            .mid-square {
-                color: white;
-                line-height: 0;
-                p{
-                    font-size: 4rem;
-                    letter-spacing: 0.09em;
-                    font-weight: 700;
-                }
+        //     // .mid-square {
+        //     //     color: white;
+        //     //     line-height: 0;
+        //     //     p{
+        //     //         font-size: 4rem;
+        //     //         letter-spacing: 0.09em;
+        //     //         font-weight: 700;
+        //     //     }
 
-                .together {
-                    margin-top: -30px
-                }
-            }
+        //     //     .together {
+        //     //         margin-top: -30px
+        //     //     }
+        //     // }
 
-            .bottom-square {
-                display: flex;
-                justify-content: space-between;
-                width: 40%;
-                margin: 0 auto;
-                .arrows {
-                    display: flex;
-                    flex-direction: column;
-                    margin-top: 125px;
-                    .arrow {
-                        // max-height: 50px;
-                        max-width: 70px;
+        //     // .bottom-square {
+        //     //     display: flex;
+        //     //     justify-content: space-between;
+        //     //     width: 40%;
+        //     //     margin: 0 auto;
+        //     //     .arrows {
+        //     //         display: flex;
+        //     //         flex-direction: column;
+        //     //         margin-top: 125px;
+        //     //         .arrow {
+        //     //             // max-height: 50px;
+        //     //             max-width: 70px;
                         
-                    }
-                }
-            }
+        //     //         }
+        //     //     }
+        //     // }
 
-            .smaller {
-                max-height: 170px;
-                max-width: 170px
-            }
-        }
+        //     // .smaller {
+        //     //     max-height: 170px;
+        //     //     max-width: 170px
+        //     // }
+        // }
     }
 
 
@@ -146,6 +146,11 @@
 
             p {
                 font-size: 1.4rem;
+                line-height: 0.5;
+            }
+
+            .top {
+                margin-bottom: 60px
             }
         }
 
@@ -157,6 +162,10 @@
                 font-size: 3em;
                 color: #7dcd66;
                 margin: 0 30px
+            }
+
+            .email {
+                cursor: pointer;
             }
         }
     }

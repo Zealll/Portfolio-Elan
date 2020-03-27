@@ -2,21 +2,24 @@
     padding: 50px 0;
     
     .nav-div {
-        padding: 0 50px;
+        // border: 1px solid red;
+        padding: 0 1%;
         display: flex;
         justify-content: space-between;
         align-items: center;
         font-family: Rajdhani;
         font-size: 1.5rem;
 
+        @media #{$mobile500} {
+            padding: 2%;
+            font-size: 1rem;
+        }
+
         .name-init {
             .bckg {
-    
-            }
-    
-            .init {
-                margin-left: -98px;
-                margin-bottom: 15px;
+                @media #{$mobile500} {
+                    width: 100%
+                }
             }
         }
     
@@ -37,25 +40,74 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+
+        @media #{$mobile500} {
+            flex-direction: column-reverse;
+        }
+
+
         .basic-bio{
             color: white;
             text-align: left;
             margin-left: 10%;
+
+            @media #{$mobile500} {
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                margin-left: 0;
+            }
+
+
             p {
                 font-size: 4rem;
+
+                @media #{$tablet1200} {
+                    font-size: 3rem;
+                }
+
+                @media #{$tablet950} {
+                    font-size: 2rem;
+                }
+
+                @media #{$tablet700} {
+                    font-size: 1.4rem;
+                }
+                @media #{$mobile500} {
+                    margin-right: 10px;
+                    margin-bottom: 0
+                }
+                
             }
         }
 
-        .circle {
-            width: 50%;
-            border-radius: 50%;
-            background: rgb(24, 24, 134);
-        }
+        // .circle {
+        //     width: 50%;
+        //     border-radius: 50%;
+        //     background: rgb(24, 24, 134);
+        //     height: auto;
+
+        //     @media #{$tablet1200} {
+        //         // border-radius: 100000em;
+        //     }
+        // }
         img {
-            width: 100%;
-            margin-left: -70px;
+            width: 50%;
+            margin-right: 5%;
             margin-top: 50px;
             margin-bottom: 50px;
+
+            @media #{$tablet1200} {
+                margin-left: -40px;
+            }
+
+            @media #{$mobile500} {
+                margin-left: 0;
+                width: 100%;
+            }
+
+            
         }
        
     }
@@ -120,11 +172,37 @@
                 font-size: 3.5rem;
                 margin-bottom: 50px;
                 margin-left: 20px;
+
+                @media #{$tablet1200} {
+                    font-size: 2.7rem;
+                }
+
+                @media #{$tablet700} {
+                    font-size: 2.2rem;
+                }
+    
+                @media #{$mobile500} {
+                    font-size: 1.8rem;
+                    width: 100%;
+                }
             }
 
             p {
                 font-weight: 600;
                 font-size: 2rem;
+
+                @media #{$tablet1200} {
+                    font-size: 1.7rem;
+                }
+
+                @media #{$tablet700} {
+                    font-size: 1.4rem;
+                }
+    
+                @media #{$mobile500} {
+                    font-size: 1rem;
+                    width: 100%;
+                }
                 
             }
             .about {

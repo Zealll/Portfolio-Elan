@@ -45,7 +45,10 @@
 }
 
 
-
+$tablet1200: 'only screen and (max-width:1200px)';
+$tablet950: 'only screen and (max-width:950px)';
+$tablet700: 'only screen and (max-width:700px)';
+$mobile500: 'only screen and (max-width:500px)';
 
 @import './components/header/Header.scss';
 @import './components/body/Body.scss';

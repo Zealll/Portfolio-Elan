@@ -16,12 +16,14 @@ const Header = () => {
                     <img src={nameInitials} alt='Name Initials' className='init' />
                 </div>
                 <nav>
-                    <a href=''>Contact</a>
-                    <a href='https://github.com/Zealll' target='_blank'>GitHub</a>
+                    <a href='https://www.linkedin.com/in/elan-riznis/' target='_blank' rel='noopener noreferrer'>LinkedIn</a>
+                    <a href='https://github.com/Zealll' target='_blank' rel='noopener noreferrer'>GitHub</a>
+                    <a href='#projects'>Projects</a>
+                    <a href='#contact'>Contact</a>
                 </nav>
             </div>
 
-            <div className='profile'>
+            <div className='profile max-width'>
                 <div className='basic-bio'>
                     <p>My name</p>
                     <p>is Elan & I'm</p>
@@ -37,7 +39,7 @@ const Header = () => {
                 <img src={x} alt='x' className='x'/>
             </div>
             <div className='parent-rectangle'>
-                <div className='text'>
+                <div className='text max-width'>
                     <div className='xDiv'>
                         <img src={x} alt='x' />
                         <p className='title'>Defining My Brand</p>

@@ -133,6 +133,15 @@
         }
     }
 
+    .skills {
+        max-width: 1000px;
+        margin: 0 auto;
+
+        img {
+            width: 100%
+        }
+    }
+
     .contact {
         .text {
             color: white;
@@ -158,6 +167,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            margin-top: 100px;
             svg {
                 font-size: 3em;
                 color: #7dcd66;
@@ -166,6 +176,20 @@
 
             .email {
                 cursor: pointer;
+            }
+
+            .copied {
+                color: white;
+                margin-top: -35px;
+                margin-bottom: 13px
+            }
+            
+            .none {
+                display: none;
+            }
+
+            .clicked {
+
             }
         }
     }

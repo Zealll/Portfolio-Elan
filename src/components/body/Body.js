@@ -97,7 +97,7 @@ const Body = () => {
                 </div>
             </div>
             
-            <div className='skills'>
+            <div className='skills' id='skills'>
                 <img src={skills} alt='Skill list'/>
             </div>
 

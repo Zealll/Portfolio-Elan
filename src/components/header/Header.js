@@ -23,6 +23,7 @@ const Header = () => {
                     <a href='https://github.com/Zealll' target='_blank' rel='noopener noreferrer'>GitHub</a>
                     <a href='#projects'>Projects</a>
                     <a href='#contact'>Contact</a>
+                    <a href='#skills'>Skills</a>
                 </nav>
             </div>
 

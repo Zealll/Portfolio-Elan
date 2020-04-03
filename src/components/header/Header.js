@@ -1,7 +1,6 @@
 import React from 'react'
 import logoBackground from '../../resources/Subtract.png'
 import nameInitials from '../../resources/ER.png'
-import profilePic from '../../resources/profile-pic.png'
 import plus from '../../resources/plus.png'
 import x from '../../resources/x.png'
 import fullCircle from '../../resources/full-circle.png'

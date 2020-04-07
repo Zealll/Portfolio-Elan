@@ -15,7 +15,6 @@ const Header = () => {
             <div className='nav-div'>
                 <div className='name-init'>
                     <img src={fullLogo} alt='Initials Background' className='bckg' />
-                    {/* <img src={nameInitials} alt='Name Initials' className='init' /> */}
                 </div>
                 <nav>
                     <a href='https://www.linkedin.com/in/elan-riznis/' target='_blank' rel='noopener noreferrer'>LinkedIn</a>

@@ -105,7 +105,7 @@ const Body = () => {
                 <div className='text'>
                     <h4>Want to Find Out More?</h4>
                     <h2>Let’s connect!</h2>
-                    <p>Hit me up to hire, collaborate, or talk about code. I’m always wiling to</p>
+                    <p>Hit me up to hire, collaborate, or talk about code. I’m always willing to</p>
                     <p className='top'>meet new people and network.</p>
                 </div>
                 <div className='links'>
